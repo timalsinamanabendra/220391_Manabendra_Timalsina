@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registation form</title>
+</head>
+<body>
+
+    <form style="border: 2px solid black; height:20%; width:20%; float:none; margin:10rem 20rem 20rem 30rem ;">
+        <h3 style="text-align: center;">User details</h3>
+        <div style="padding: 5px 5px 5px 12px;">
+        <div>Fname<br><input type="text"  name="fname" placeholder="Enter ur First name"></div>
+        <div>Lname<br><input type="text"  name="lname" placeholder="Enter ur Last name"></div>
+        <div>Phone Number<br><input type="tel"  name="Phone_number" placeholder="Enter ur phone number"></div>
+        <select style="margin-top: 20px;" required>
+            <option value="" disabled selected hidden>Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+         </select><br>
+        <div style="margin-top: 5px;">Fv subject<div><input type="radio" name="subject" value="math">Math</div>
+        <div><input type="radio" name="subject" value="English">English</div>
+        <div><input type="radio" name="subject" value="Science">Science</div></div>
+         <input style="background-color: green;" type="submit" name="submit" value="register now">
+    </div>
+    </form>
+</body>
+</html>
