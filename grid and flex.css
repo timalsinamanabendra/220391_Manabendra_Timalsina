@@ -1,0 +1,14 @@
+.div1{
+	width: 100%;
+	background: red;
+	display: flex;
+	height: 30em;
+	align-items: center;
+	justify-content: center;
+}
+.div2{
+	display: grid;
+	place-items: center;
+	background: green;
+	height: 30em;
+}
