@@ -1,0 +1,86 @@
+.login_header{
+	font-size: 30rem;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+.email{
+	font-size: 12rem;
+	font-weight: bold;
+
+}
+.passcode{
+	font-size: 12rem;
+	font-weight: bold;
+	margin-top: 2rem;
+}
+.login{
+	border: .7rem solid black;
+	width: 270rem;
+	height: 270rem;
+	border-radius: 10rem;
+	background: #f2f2f2;
+	margin-top: 100rem;
+	margin-left: 280rem;
+}
+.tbox{
+	width: 200rem;
+	height: 15rem;
+	border-radius: 10rem;
+	margin-top: 5rem;
+	margin-left: 4rem;
+	font-size: 10rem;
+	padding-left: 2rem;
+}
+.login1{
+	margin: 20rem;
+	margin-top: 50rem;
+}
+.login_text{
+	text-align: center;
+	font-size: 25rem;
+	color: skyblue;
+	font-weight: bold;
+	padding-top: 15rem;
+}
+.login_but{
+	width: 180rem;
+	height: 25rem;
+	text-align: center;
+	color: white;		
+	margin-top: 5rem;
+	font-size: 15rem;
+	margin-left: 25rem;
+	border-radius: 10rem;
+	background: #66b3ff;
+}
+.login_but:hover{
+	background: #3399ff;
+}
+.checkbox{
+	margin-left: 25rem;
+	width: 8rem;
+	height: 8rem;
+	margin-top: 5rem;
+}
+.pwd{
+	font-size: 10rem;
+}
+.cbox_text{
+	font-size: 10rem;
+}
+label{
+	font-size: 10rem;
+}
+.error{
+	font-size: 10rem;
+	margin-left: 25rem;
+	color: darkred;
+	background: rgba(255, 0, 0, 0.1);
+	width: 150rem;
+	padding-left: 10rem;
+	border-radius: 5rem;
+	margin-top: 2rem;
+	display: none;
+}

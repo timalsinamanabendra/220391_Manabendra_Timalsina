@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login For Edit</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="login_header">To Edit You Have To Login</div><hr>
+	<div class="login">
+		<div class="login_text">
+			Login!
+		</div>
+		<form method="post" name="form" onsubmit="return validated()">
+		<div class="login1">
+			<div class="email">Enter your email or username</div>
+			<input id="username" class="tbox" type="email"  name="email" placeholder="Enter your email">
+			<div class="error" id="email_error">Please fill your username</div>
+			<div class="passcode">Enter Your password</div>
+			<input class="tbox" type="password" id="pswd" name="password"  placeholder="Enter Your password"><br>
+			<div class="error" id="password_error">Please fill your password</div>
+			<label>			
+				<input class="checkbox" type="checkbox" name="Show password" onclick="myFunction()">Show Password
+			</label>
+			<input class="login_but" type="submit" value="Login">
+		</div>
+	</form>
+	</div>
+	<script>
+function myFunction() {
+  var x = document.getElementById("pswd");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
+	var email=document.form['form']['email'];
+	var password=document.form['form']['password'];
+
+	var username=document.getElementById('username');
+	var pswd=document.getElementById('pswd');
+
+	function validated(){
+		if (email.value.length < 10){
+			email.style.border = "10px solid red"; 
+			error.style.display = "block";
+			email.focus();
+			return false;
+		} 
+	}
+
+</script>
+
+	
+
+</body>
+</html>
