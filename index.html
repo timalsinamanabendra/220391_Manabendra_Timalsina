@@ -1,87 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Timalsina developer</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<script src="https://kit.fontawesome.com/fb90ccfbbf.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-	<div class="header1">Timalsina Photographer and a Developer</div>
-	<div class="header2">Welcome to Manabendra Webpage</div>
-	<hr/>
+  <!-- Navigation bar -->
+  <nav>
+    <div class="logo">
+      <img src="images.png" height="20px" width="20px">
+    </div>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Portfolio</a></li>
+      <li><a href="#projects">Contact</a></li>
+      <li><a href="#projects" class="download"><i class="fa-solid fa-download">Download CV</a></i></li>
+    </ul>
+  </nav>
+  
 
-	
-		<div>
-		<img class="photo1" src="photo1.jpg">
-		</div>
-		
-		<div>
-		<div class="p1">I am</div>
-		<div class="p2">Manabendra Timalsina</div>
-		<div class="p3">I Love photography and Web Development</div>
-		</div>
-		<hr>
+  <!-- Hero section with parallax effect and animation -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 style="text-align: center;">Welcome to my portfolio</h1>
+      <p>My name is Mr.Timalsina and I am a web developer</p>
+    </div>
+  </section>
 
-		<img class="photo2" src="photo2.jpg">
-	<div class="love">
-			
-		
-		<div class="p4">
-			What I love
-		</div>
-		<div class="p5">Photographer</div>
-		<div class="p6">Web Devlopment</div>
-		<div class="p7">
-			Photography is my hobby. I use photoshop for my editing. To capture photos, I use my android phone(vivo S1) for photograpy.I want to timepass by capturing photo.
-		</div>
-		<div class="p8">
-		 My passion about front-end development. I use HTML, CSS and Javascript this purpose.
-		</div>
-	</div>
-					
-		
-						<div class="p9">
-						My <b>Photo</b> Gallery
-					</div></div>
-				
-				<div class="gallery">
-				
-					<img class="gallery_photo" src="photo3.jpg">
-					<img class="gallery_photo" src="photo4.jpg">
-					<img class="gallery_photo" src="photo15.jpg">
-					<img class="gallery_photo" src="photo5.jpg">
-					<img class="gallery_photo" src="photo6.jpg">
-					<img class="gallery_photo" src="photo16.jpg">
-					<img class="gallery_photo" src="photo7.jpg">
-					<img class="gallery_photo" src="photo8.jpg">
-					<img class="gallery_photo" src="photo9.jpg">
-					<img class="gallery_photo" src="photo17.jpg">
-					<img class="gallery_photo" src="photo10.jpg">
-					<img class="gallery_photo" src="photo11.jpg">
-					<img class="gallery_photo" src="photo12.jpg">
-					<img class="gallery_photo" src="photo13.jpg">
-					<img class="gallery_photo" src="photo14.jpg">
-				</div>	
-			</div>
+  <!-- About section -->
+  <section id="about" class="about">
+    <h2 style="text-align: center;">About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mollis odio, at pulvinar urna aliquam eget. Nam nec ullamcorper enim, vel rhoncus arcu. Proin eget odio non mauris aliquam fermentum ut in turpis. Nullam euismod urna vitae velit pretium iaculis. Nam a malesuada nisl, at sodales libero.</p>
+  </section>
 
- 	<div class="about_me">About me</div><hr>
- 	<div class="difination">I am the student of Computer Engineering. My passion about front-end development. I use HTML, CSS and Javascript this purpose.<br>Photography is my hobby. I use photoshop for my editing.I want to timepass by capturing photo. </div>
-				
- 		<div class="container">
- 			<div class="icon">
+  <!-- Education section -->
+  <section id="education" class="education">
+    <h2 style="text-align: center;">Education</h2>
+    <ul>
+      <li>Bachelor of Science in Computer Science - University of XYZ</li>
+      <li>Web Development Certificate - ABC Institute</li>
+    </ul>
+  </section>
 
- 					<a class="fb" href="http://facebook.com/prabesh.timalsina.58"><i class="fa-brands fa-facebook-f"></i></a>
+  <!-- Projects section -->
+  <section id="projects" class="projects">
+    <h2 style="text-align: center;">Projects</h2>
+    <ul>
+      <li>Project 1 - Lorem ipsum dolor sit amet</li>
+      <li>Project 2 - Consectetur adipiscing elit</li>
+      <li>Project 3 - Sed posuere mollis odio</li>
+    </ul>
+  </section>
 
-                	<a class="inst" href="https://www.instagram.com/prash9356/"><i class="fa-brands fa-instagram"></i></a>
+  <!-- Contact section -->
+  <section id="contact" class="contact">
+    <h2style="text-align: center;">Contact Me</h2>
+    <form action="">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
 
-                	<a class="yt" href="https://www.youtube.com/channel/UCK_K4ACYnmX3rfd4zEHN6mQ"><i class="fa-brands fa-youtube"></i></a>
+    <!-- Back to top button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
 
-                	<a class="twit" href="https://twitter.com/Manabendratim?t=8vM3gubmE7CFcIWZPa5snw&s=07&fbclid=IwAR23iA3U6HHVEdECsaDZazcTzgR9Jng7X_nhbn2lEzjam1FwfU3CQ8QP77s"><i class="fa-brands fa-twitter"></i></a>
-                
-            </div>
- 				<small class="copyright">Copyright &copy; 2022  Manabendra Timalsina</small>
- 		</div>
-
-
-</body>
-</html>
+    <!-- Footer section -->
+    <footer class="footer">
+      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+  
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+  </html>
+  
